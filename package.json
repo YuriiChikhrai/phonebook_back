@@ -1,0 +1,30 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev PORT=3000 node app.js",
+    "start:dev": "cross-env DEBUG=compression NODE_ENV=dev PORT=3000 node --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "celebrate": "^14.0.0",
+    "chokidar": "^3.5.1",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.4.1",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "joi": "^17.4.0",
+    "mongoose": "^5.12.4",
+    "nunjucks": "^3.2.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
